@@ -19,12 +19,12 @@ header {
     margin-top: 5em;
     margin-bottom: 0;
     border-radius: 1em;
-    font-size: 1em;
+    font-size: 3em;
     box-shadow: 0 03px #051424;
 }
 
 div {
-    margin-left: 4em;
+    margin-left: 2em;
 }
 
 .calculator {
@@ -32,8 +32,8 @@ div {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 40px black;
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 #display {
@@ -82,3 +82,4 @@ footer {
     font-weight: bold;
 
 }
+
