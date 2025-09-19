@@ -28,7 +28,7 @@ header {
 }
 
 div {
-    margin: 2em;
+    margin-right: 1.5em;
     padding: 2em;
 }
 
@@ -93,6 +93,7 @@ footer {
     font-weight: bold;
 
 }
+
 
 
 
