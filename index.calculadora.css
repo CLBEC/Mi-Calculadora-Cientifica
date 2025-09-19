@@ -17,6 +17,8 @@ header {
     font-size: 2.5em;
     margin-bottom: 2em;
     margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0.5em;
@@ -26,7 +28,7 @@ header {
 }
 
 div {
-    margin-left: 2em;
+    margin: 1em;
 }
 
 .calculator {
@@ -65,8 +67,8 @@ div button {
     border: 2px solid black;
     border-radius: 5px;
     font-weight: bold;
-    padding: 0.5em;
-    font-size: 2em;
+    padding: 0.3em;
+    font-size: 2.5em;
     box-shadow: 0 0  3em black;
 }
 
@@ -101,4 +103,5 @@ footer {
     font-weight: bold;
 
 }
+
 
