@@ -90,6 +90,12 @@ div button:hover {
     font-family: tahoma;
 }
 
+.message ul li {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+}
+
 footer {
     color: #051424;
     font-size: 1.5em;
@@ -103,5 +109,6 @@ footer {
     font-weight: bold;
 
 }
+
 
 
