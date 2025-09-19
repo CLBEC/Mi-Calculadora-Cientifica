@@ -28,7 +28,7 @@ header {
 }
 
 div {
-    margin: 1em;
+    margin: 2em;
 }
 
 .calculator {
@@ -68,7 +68,7 @@ div button {
     border-radius: 5px;
     font-weight: bold;
     padding: 0.3em;
-    font-size: 2.5em;
+    font-size: 3em;
     box-shadow: 0 0  3em black;
 }
 
@@ -76,24 +76,6 @@ div button:hover {
     background-color: white;
     color: #051425;
     cursor: pointer;
-}
-
-.button {
-    padding: 15px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.message {
-    color: white;
-    text-align: center;
-    font-family: tahoma;
-}
-
-.message ul li {
-    list-style-type: none;
-    color: white;
-    text-align: left;
 }
 
 footer {
@@ -109,6 +91,7 @@ footer {
     font-weight: bold;
 
 }
+
 
 
 
