@@ -8,19 +8,21 @@ body {
     align-items: center;
     display: grid;
     grid-column: center;
+    text-align: center;
 }
 
 header {
     background-color: #051424;
     color: white;
-    text-shadow: 0 3px goldenrod;
-    text-align: center;
-    padding: 1em;
-    margin-top: 5em;
-    margin-bottom: 0;
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     border-radius: 1em;
-    font-size: 3em;
-    box-shadow: 0 03px #051424;
+    box-shadow: 0 0 0 15px gray;
 }
 
 div {
@@ -29,21 +31,21 @@ div {
 
 .calculator {
     background-color: #051424;
-    padding: 20px;
+    padding: 2em;
     border-radius: 10px;
     box-shadow: 0 0 40px black;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 95%;
 }
 
 #display {
     width: 95%;
-    height: 50px;
-    font-size: 1.2em;
+    height: 90px;
+    font-size: 2em;
     margin-bottom: 1em;
     padding-right: 10px;
     text-align: right;
-    border-radius: 1vh;
+    border-radius: 0.5em;
     color: #051424;
     background-color: white;
     border: 0.5vh solid #777;
@@ -60,11 +62,18 @@ div {
 div button {
     background-color: #051424;
     color: white;
-    border: 2px solid grey;
+    border: 2px solid black;
     border-radius: 5px;
     font-weight: bold;
-    padding: 5px;
-    font-size: 18px;
+    padding: 0.5em;
+    font-size: 2em;
+    box-shadow: 0 0  3em black;
+}
+
+div button:hover {
+    background-color: white;
+    color: #051425;
+    cursor: pointer;
 }
 
 .button {
@@ -73,12 +82,22 @@ div button {
     cursor: pointer;
 }
 
-footer {
-    background-color: white;
-    color: #051424;
-    padding: 1vh;
+.message {
+    color: white;
     text-align: center;
-    margin: 0;
+    font-family: tahoma;
+}
+
+footer {
+    color: #051424;
+    font-size: 1.5em;
+    border-top: 10px solid gray;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom: 5px solid gray;
+    padding: 1em;
+    text-align: center;
+    margin-top: 5em;
     font-weight: bold;
 
 }
